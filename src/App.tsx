@@ -1,26 +1,37 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { Component } from 'react';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import {
+  BrowserRouter as Router,
+  HashRouter,
+  Route,
+  Switch,
+  Redirect
+} from 'react-router-dom';
+
+
+//Pages
+import MainPage from './pages';
+import NotFoundPage from './pages/404';
+import TodoList from './pages/todoList';
+import ResumePage from './pages/resume';
+import Tetris from './pages/tetris';
+
+class App extends Component {
+  render() {
+    return (
+      <HashRouter>
+        <Switch>
+          <Route exact path="/" component={MainPage} />
+          <Route exact path="/todo" component={TodoList} />
+          <Route exact path="/404" component={NotFoundPage} />
+          <Route exact path="/resume" component={ResumePage} />
+          <Route exact path="/tetris" render={(props) => <Tetris boardWidth="14" boardHeight="20" {...props}/>} />
+          <Redirect to="/404" />
+        </Switch>
+      </HashRouter>
+    );
+  }
 }
 
 export default App;
