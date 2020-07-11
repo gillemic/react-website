@@ -1,0 +1,44 @@
+img {
+  width: 200px;
+  display: block;
+  margin: 5px auto;
+}
+
+.mainPage {
+  border: 1px solid;
+  display: block;
+  margin: 5px auto;
+  width: 95%;
+}
+
+.sidebar {
+  border: solid 1px;
+  height: 80%;
+  width: 30%;
+  max-width: 400px;
+  float: left;
+  margin: 10px;
+  background-color: #dadada;
+}
+
+.sidebar p {
+  font-size: 24px;
+  padding: 10px;
+}
+
+.mainPage-body {
+  border: solid 1px;
+  height: 80%;
+  width: 65%;
+  float: right;
+  margin: 30px auto;
+  display: block;
+}
+
+.mainPage-body p {
+  font-size: 20px;
+  border: 1px solid;
+  margin: 5px;
+  padding: 10px;
+  display: block;
+}

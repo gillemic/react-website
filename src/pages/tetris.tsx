@@ -4,7 +4,7 @@
 import * as React from 'react'
 
 // Import TetrisBoard component
-import TetrisBoard from '../components/tetris-board'
+import TetrisBoard from '../components/tetris/tetris-board'
 import '../styles/tetris.css'
 import Header from '../components/layout/Header'
 import NavBar from '../components/layout/Navbar'

@@ -4,7 +4,7 @@
 import * as React from 'react'
 
 // Import TetrisBoard component
-import TetrisBoard from './tetris-board'
+import TetrisBoard from '../tetris/tetris-board'
 
 // Define props for Tetris component
 type TetrisProps = {

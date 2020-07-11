@@ -2,28 +2,32 @@ import React from 'react';
 import { Link } from "react-router-dom";
 import NavBar from '../components/layout/Navbar';
 import Header from '../components/layout/Header';
-
-const mainPageBody = {
-    width: "50%",
-    margin: "20px auto",
-    textAlign: "center",
-    backgroundColor: "white",
-    border: 'solid',
-    borderColor: '#888',
-    fontSize: "24px",
-    padding: "10px"
-}
+import '../styles/mainpage.css';
 
 const MainPage = () => {
     return (
         <div>
             <Header />
             <NavBar />
-            <div>
-                <p style={mainPageBody}>This is a website for documenting and showcasing my projects in an accesible manor</p>
-            </div>
-            <div>
-                <p style={mainPageBody}>Check out my Todo List and my Resume in the Navbar above!</p>
+            <div class="mainPage">
+                <div class="sidebar">
+                    <img src="profile.jpg" alt="Profile" />
+                    <p>
+                        Hello! My name is Michael Gillett. I am a recent graduate with a degree in Computer Science looking for a Software Developer job. I made this
+                        website using React.js and Typescript, with the hosting done through AWS Amplify.
+                        <br />
+                        <br />
+                        Twitter: <a href="https://www.twitter.com/MichaelDotPy">@MichaelDotPy</a>
+                        <br />
+                        Github: <a href="https://www.github.com/gillemic">github.com/gillemic</a>
+                        <br />
+                        Linkedin: <a href="https://www.linkedin.com/in/gillemic/">https://www.linkedin.com/in/gillemic/</a> 
+                    </p>
+                </div>
+                <div class="mainPage-body">
+                    <p>This is some dummy text to simulate posts n stuff</p>
+                    <p>This is another</p>
+                </div>
             </div>
         </div>
        
