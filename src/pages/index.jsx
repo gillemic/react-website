@@ -25,8 +25,19 @@ const MainPage = () => {
                     </p>
                 </div>
                 <div class="mainPage-body">
-                    <p>This is some dummy text to simulate posts n stuff</p>
-                    <p>This is another</p>
+                    <p>
+                        Just added a tetris page! It can be accessed via the Navigation bar at the 
+                        top of the page. 
+                    </p>
+                    <p>
+                        Finally got the Resume page working! It was tougher than I thought to
+                        render a PDF and after several failed ReactJS/npm packages, the JSX attribute
+                        &lt;iframe&gt; with the pdf as the source
+                    </p>
+                    <p>
+                        Todo list page is up! My first react project, made from create-react-app. Hope to
+                        add additional features such as list-saving or multiple lists!
+                    </p>
                 </div>
             </div>
         </div>
