@@ -70,7 +70,7 @@ const todoHeader = {
   marginBottom: "10px",
   width: "auto",
   textAlign: "center",
-  backgroundColor: "#394",
+  backgroundColor: "#397",
   border: "solid",
 }
 

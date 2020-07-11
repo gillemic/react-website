@@ -17,7 +17,7 @@ img {
   min-width: 230px;
   max-width: 400px;
   float: left;
-  margin: 10px;
+  margin: 10px auto;
   background-color: #dadada;
 }
 
@@ -29,8 +29,9 @@ img {
 .mainPage-body {
   height: 80%;
   width: 70%;
+  min-width: 200px;
   float: left;
-  margin: 30px auto;
+  margin: 10px auto;
   display: block;
 }
 
