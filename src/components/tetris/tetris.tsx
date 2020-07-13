@@ -322,7 +322,7 @@ class Tetris extends React.Component<TetrisProps, TetrisState> {
 
         // Remove completed rows
         if (isLineComplete) {
-          for (let yRowSrc = row; row > 0; row--) {
+          for (let row = this.props.boardHeight - 1; row > 0; row--) {
             for (let col = 0; col < this.props.boardWidth; col++) {
               field[row][col] = field[row - 1][col]
             }

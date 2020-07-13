@@ -1,6 +1,6 @@
 import React from 'react';
-import {StyleSheet, ReactPDF } from 'react-pdf';
-import { PDFViewer } from '@react-pdf/renderer';
+// import {StyleSheet, ReactPDF } from 'react-pdf';
+// import { PDFViewer } from '@react-pdf/renderer';
 import NavBar from '../components/layout/Navbar';
 import Header from '../components/layout/Header';
 import { Component } from 'react';
