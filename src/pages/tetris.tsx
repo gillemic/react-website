@@ -513,6 +513,14 @@ class Tetris extends React.Component<TetrisProps, TetrisState> {
 
             <button className="btn" onClick={this.handlePauseClick}>{this.state.isPaused ? 'Resume' : 'Pause'}</button>
           </div>
+          <div className="tetris-rules">
+            <p>Play tetris using the arrow keys and space bar!</p>
+            <br />
+            <p>&#8592; and &#8594; = Move the tetris piece left or right</p>
+            <p>&#8593; = Rotate piece clockwise</p>
+            <p>&#8595; (hold) = Drop piece faster</p>
+            <p>Spacebar = Pause game</p>
+          </div>
         </div>
       </div>
     )
