@@ -6,6 +6,7 @@ import ClearAll from '../components/todo/ClearAll'
 import uuid from 'uuid';
 
 import '../App.css';
+import '../styles/todolist.css';
 import NavBar from '../components/layout/Navbar';
 
 class TodoList extends Component {
@@ -50,8 +51,8 @@ class TodoList extends Component {
       <div>
         <Header />
         <NavBar />
-        <div className="App">
-          <header style={todoHeader}>
+        <div className="todolist">
+          <header class="todoHeader">
               <h1>Todo List</h1>
           </header>
           <p className='add-text'>Enter a task and press 'Submit' to add it to your list</p>
@@ -63,15 +64,6 @@ class TodoList extends Component {
       </div>
     );
   }
-}
-
-const todoHeader = {
-  marginTop: "10px",
-  marginBottom: "10px",
-  width: "auto",
-  textAlign: "center",
-  backgroundColor: "#397",
-  border: "solid",
 }
 
 export default TodoList;

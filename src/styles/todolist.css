@@ -1,0 +1,23 @@
+.todoHeader {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: auto;
+  text-align: center;
+  background-color: #397;
+  border: solid;
+}
+
+.todolist {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+.add-text {
+  margin: auto;
+  background-color: #fff;
+  font-size: 18px; 
+  font-weight: 'bold';
+  text-align: center;
+  border: 1px solid black;
+}
