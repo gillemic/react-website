@@ -26,6 +26,14 @@ const MainPage = () => {
                 </div>
                 <div class="mainPage-body">
                     <p>
+                        Gonna work on making or integrating an actual CMS so I can make this more of a blog. Also want to work on
+                        adding projects!
+                    </p>
+                    <p>
+                        Added a box under the tetris board showing the keyboard controls. Hopefully this
+                        will make it easier to use!
+                    </p>
+                    <p>
                         Just added a tetris page! It can be accessed via the Navigation bar at the 
                         top of the page. 
                     </p>
